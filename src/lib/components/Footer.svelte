@@ -1,4 +1,4 @@
-<footer class="border-t border-grey-200 mt-24">
+<footer class="border-t border-white/10 mt-24">
 	<div class="max-w-7xl mx-auto px-6 py-12">
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
 			<!-- About -->
@@ -52,7 +52,7 @@
 			</div>
 		</div>
 
-		<div class="mt-12 pt-8 border-t border-grey-200">
+		<div class="mt-12 pt-8 border-t border-white/10">
 			<p class="text-xs opacity-40 text-center">
 				© {new Date().getFullYear()} Create Something. The canon for "less, but better."
 			</p>

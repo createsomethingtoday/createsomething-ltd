@@ -6,7 +6,7 @@
 
 <a
 	href="/masters/{master.slug}"
-	class="block border border-grey-200 hover:border-black transition-colors group"
+	class="block border border-white/10 hover:border-white transition-colors group"
 >
 	<div class="p-8">
 		<div class="mb-6">

@@ -2,7 +2,7 @@
 	let { currentPath = $bindable('/') } = $props();
 </script>
 
-<nav class="border-b border-grey-200">
+<nav class="border-b border-white/10">
 	<div class="max-w-7xl mx-auto px-6 py-6">
 		<div class="flex items-center justify-between">
 			<!-- Logo / Home -->

@@ -4,7 +4,7 @@
 	let { principle, showMaster = false }: { principle: Principle; showMaster?: boolean } = $props();
 </script>
 
-<div class="border border-grey-200 p-8">
+<div class="border border-white/10 p-8">
 	<div class="mb-4">
 		{#if principle.order_index}
 			<span class="text-xs font-mono opacity-40">#{principle.order_index}</span>

@@ -7,7 +7,7 @@
 </svelte:head>
 
 <!-- Header -->
-<section class="pt-24 pb-16 px-6 border-b border-grey-200">
+<section class="pt-24 pb-16 px-6 border-b border-white/10">
 	<div class="max-w-4xl mx-auto text-center">
 		<p class="text-sm tracking-widest uppercase opacity-60 mb-4">Our Philosophy</p>
 		<h1 class="mb-6">Ethos</h1>
@@ -47,13 +47,13 @@
 </section>
 
 <!-- Standards for Each Domain -->
-<section class="py-16 px-6 border-t border-grey-200 bg-grey-100">
+<section class="py-16 px-6 border-t border-white/10">
 	<div class="max-w-5xl mx-auto">
 		<h2 class="mb-12 text-center">Standards Across the Ecosystem</h2>
 
 		<div class="space-y-12">
 			<!-- .io Standards -->
-			<div class="bg-white border border-grey-200 p-8">
+			<div class="bg-grey-100 border border-white/10 p-8">
 				<div class="mb-6">
 					<span class="text-xs font-mono opacity-40">.io</span>
 					<h3 class="text-2xl font-semibold mt-2">Research Standards</h3>
@@ -91,7 +91,7 @@
 			</div>
 
 			<!-- .space Standards -->
-			<div class="bg-white border border-grey-200 p-8">
+			<div class="bg-grey-100 border border-white/10 p-8">
 				<div class="mb-6">
 					<span class="text-xs font-mono opacity-40">.space</span>
 					<h3 class="text-2xl font-semibold mt-2">Practice Standards</h3>
@@ -129,7 +129,7 @@
 			</div>
 
 			<!-- .agency Standards -->
-			<div class="bg-white border border-grey-200 p-8">
+			<div class="bg-grey-100 border border-white/10 p-8">
 				<div class="mb-6">
 					<span class="text-xs font-mono opacity-40">.agency</span>
 					<h3 class="text-2xl font-semibold mt-2">Service Standards</h3>
@@ -173,7 +173,7 @@
 </section>
 
 <!-- The Hermeneutic Circle -->
-<section class="py-16 px-6 border-t border-grey-200">
+<section class="py-16 px-6 border-t border-white/10">
 	<div class="max-w-3xl mx-auto">
 		<h2 class="mb-8">The Hermeneutic Circle</h2>
 
@@ -190,7 +190,7 @@
 				validation.
 			</p>
 
-			<div class="mt-12 p-8 bg-grey-100 border border-grey-200">
+			<div class="mt-12 p-8 bg-grey-100 border border-white/10">
 				<pre class="text-sm opacity-60 font-mono leading-relaxed overflow-x-auto">
 .ltd (STANDARDS)
     ↓ provides criteria
@@ -207,18 +207,3 @@
 	</div>
 </section>
 
-<!-- Call to Action -->
-<section class="py-16 px-6 border-t border-grey-200 bg-black text-white">
-	<div class="max-w-4xl mx-auto text-center">
-		<h2 class="mb-6 text-white">Less, but better.</h2>
-		<p class="text-xl opacity-70 mb-8">
-			This is the standard. Everything else is measured against it.
-		</p>
-		<a
-			href="/masters"
-			class="inline-block px-8 py-4 bg-white text-black font-medium hover:opacity-90 transition-opacity"
-		>
-			Explore the Masters
-		</a>
-	</div>
-</section>

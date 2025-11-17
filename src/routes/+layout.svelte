@@ -7,7 +7,17 @@
 </script>
 
 <svelte:head>
-	<meta name="theme-color" content="#FFFFFF" />
+	<meta name="theme-color" content="#000000" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+		rel="stylesheet"
+	/>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap"
+		rel="stylesheet"
+	/>
 </svelte:head>
 
 <div class="min-h-screen flex flex-col">

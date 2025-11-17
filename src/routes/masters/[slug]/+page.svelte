@@ -17,7 +17,7 @@
 {#if data.master}
 
 	<!-- Master Header -->
-	<section class="pt-24 pb-16 px-6 border-b border-grey-200">
+	<section class="pt-24 pb-16 px-6 border-b border-white/10">
 		<div class="max-w-4xl mx-auto">
 			{#if data.master.discipline}
 				<p class="text-sm tracking-widest uppercase opacity-60 mb-4">{data.master.discipline}</p>
@@ -51,7 +51,7 @@
 
 	<!-- Principles -->
 	{#if data.principles && data.principles.length > 0}
-		<section class="py-16 px-6 border-t border-grey-200 bg-grey-100">
+		<section class="py-16 px-6 border-t border-white/10 bg-grey-100">
 			<div class="max-w-5xl mx-auto">
 				<h2 class="text-3xl font-bold mb-12">
 					{data.principles.length === 10 ? 'The 10 Principles' : 'Principles'}
@@ -68,7 +68,7 @@
 
 	<!-- Quotes -->
 	{#if data.quotes && data.quotes.length > 0}
-		<section class="py-16 px-6 border-t border-grey-200">
+		<section class="py-16 px-6 border-t border-white/10">
 			<div class="max-w-3xl mx-auto">
 				<h2 class="text-3xl font-bold mb-12">Notable Quotes</h2>
 
@@ -83,7 +83,7 @@
 
 	<!-- Legacy -->
 	{#if data.master.legacy}
-		<section class="py-16 px-6 border-t border-grey-200 bg-grey-100">
+		<section class="py-16 px-6 border-t border-white/10 bg-grey-100">
 			<div class="max-w-3xl mx-auto">
 				<h2 class="text-3xl font-bold mb-8">Legacy</h2>
 				<div class="prose prose-lg max-w-none opacity-80 leading-relaxed">
@@ -95,7 +95,7 @@
 
 	<!-- Resources -->
 	{#if data.resources && data.resources.length > 0}
-		<section class="py-16 px-6 border-t border-grey-200">
+		<section class="py-16 px-6 border-t border-white/10">
 			<div class="max-w-3xl mx-auto">
 				<h2 class="text-3xl font-bold mb-8">Resources</h2>
 

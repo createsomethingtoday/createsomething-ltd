@@ -14,7 +14,7 @@
 </svelte:head>
 
 <!-- Header -->
-<section class="pt-24 pb-16 px-6 border-b border-grey-200">
+<section class="pt-24 pb-16 px-6 border-b border-white/10">
 	<div class="max-w-7xl mx-auto">
 		<p class="text-sm tracking-widest uppercase opacity-60 mb-4">The Canon</p>
 		<h1 class="mb-6">Masters</h1>
