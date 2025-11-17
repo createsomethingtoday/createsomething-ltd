@@ -1,0 +1,32 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "create-something-ltd",
+	"account_id": "9645bd52e640b8a4f40a3a55ff1dd75a",
+	"compatibility_date": "2025-11-17",
+	"compatibility_flags": ["nodejs_compat"],
+	"main": ".svelte-kit/cloudflare/_worker.js",
+	"assets": {
+		"directory": ".svelte-kit/cloudflare/assets",
+		"binding": "ASSETS"
+	},
+	"observability": {
+		"enabled": true
+	},
+	"placement": { "mode": "smart" },
+
+	"dev": {
+		"port": 3002
+	},
+
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "create-something-db",
+			"database_id": "a74e70ae-6a94-43da-905e-b90719c8dfd2"
+		}
+	],
+
+	"vars": {
+		"ENVIRONMENT": "production"
+	}
+}
