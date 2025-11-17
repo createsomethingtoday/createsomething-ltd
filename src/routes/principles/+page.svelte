@@ -5,7 +5,7 @@
 	let { data }: { data: PageData } = $props();
 
 	// Group principles by master
-	const principlesByMaster = $derived(() => {
+	const principlesByMaster = $derived.by(() => {
 		const grouped: Record<string, { name: string; slug: string; principles: any[] }> = {};
 
 		data.principles.forEach((principle: any) => {
@@ -20,7 +20,7 @@
 		});
 
 		return Object.values(grouped);
-	})();
+	});
 </script>
 
 <svelte:head>
