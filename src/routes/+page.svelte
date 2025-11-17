@@ -29,7 +29,7 @@
 			</a>
 			<a
 				href="/ethos"
-				class="px-8 py-4 border border-grey-200 hover:border-white transition-colors"
+				class="px-8 py-4 border border-white/10 hover:border-white transition-colors"
 			>
 				Read Our Ethos
 			</a>
@@ -38,7 +38,7 @@
 </section>
 
 <!-- Manifesto -->
-<section class="py-24 px-6 border-t border-white/10 bg-grey-100">
+<section class="py-24 px-6 border-t border-white/10">
 	<div class="max-w-3xl mx-auto">
 		<h2 class="mb-8 text-center">Weniger, aber besser</h2>
 
@@ -75,7 +75,7 @@
 			{#each [ { name: 'Dieter Rams', discipline: 'Industrial Design', tagline: '10 Principles of Good Design', slug: 'dieter-rams' }, { name: 'Ludwig Mies van der Rohe', discipline: 'Architecture', tagline: 'Less is more', slug: 'mies-van-der-rohe' }, { name: 'Charles & Ray Eames', discipline: 'Design', tagline: 'The best for the most for the least', slug: 'charles-ray-eames' } ] as master}
 				<a
 					href="/masters/{master.slug}"
-					class="block p-8 border border-grey-200 hover:border-white transition-colors group"
+					class="block p-8 border border-white/10 hover:border-white transition-colors group"
 				>
 					<p class="text-xs uppercase tracking-widest opacity-40 mb-4">{master.discipline}</p>
 					<h4 class="mb-2 group-hover:opacity-70 transition-opacity">{master.name}</h4>
