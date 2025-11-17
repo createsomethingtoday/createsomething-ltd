@@ -6,14 +6,15 @@
 	let { data }: { data: PageData } = $props();
 </script>
 
+<svelte:head>
+	<title>{data.master ? `${data.master.name} — CREATE SOMETHING.ltd` : 'Master Not Found — CREATE SOMETHING.ltd'}</title>
+	<meta
+		name="description"
+		content={data.master?.tagline || data.master ? `Learn about ${data.master.name} and their principles.` : 'Master not found in the canon.'}
+	/>
+</svelte:head>
+
 {#if data.master}
-	<svelte:head>
-		<title>{data.master.name} — CREATE SOMETHING.ltd</title>
-		<meta
-			name="description"
-			content={data.master.tagline || `Learn about ${data.master.name} and their principles.`}
-		/>
-	</svelte:head>
 
 	<!-- Master Header -->
 	<section class="pt-24 pb-16 px-6 border-b border-grey-200">
