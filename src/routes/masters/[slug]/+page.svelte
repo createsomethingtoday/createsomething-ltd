@@ -51,7 +51,7 @@
 
 	<!-- Principles -->
 	{#if data.principles && data.principles.length > 0}
-		<section class="py-16 px-6 border-t border-white/10 bg-grey-100">
+		<section class="py-16 px-6 border-t border-white/10">
 			<div class="max-w-5xl mx-auto">
 				<h2 class="text-3xl font-bold mb-12">
 					{data.principles.length === 10 ? 'The 10 Principles' : 'Principles'}
@@ -83,7 +83,7 @@
 
 	<!-- Legacy -->
 	{#if data.master.legacy}
-		<section class="py-16 px-6 border-t border-white/10 bg-grey-100">
+		<section class="py-16 px-6 border-t border-white/10">
 			<div class="max-w-3xl mx-auto">
 				<h2 class="text-3xl font-bold mb-8">Legacy</h2>
 				<div class="prose prose-lg max-w-none opacity-80 leading-relaxed">
@@ -101,8 +101,8 @@
 
 				<div class="space-y-4">
 					{#each data.resources as resource}
-						<div class="border border-grey-200 p-6">
-							<div class="flex items-start justify-between gap-4">
+						<div class="border border-white/10 p-6">
+							<div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
 								<div class="flex-1">
 									{#if resource.type}
 										<span class="text-xs uppercase tracking-widest opacity-40 mb-2 block"

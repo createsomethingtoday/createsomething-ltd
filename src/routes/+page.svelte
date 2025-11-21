@@ -22,16 +22,16 @@
 
 		<div class="flex flex-col sm:flex-row gap-4 justify-center">
 			<a
-				href="/masters"
+				href="/patterns"
 				class="px-8 py-4 bg-white text-black font-medium hover:opacity-90 transition-opacity"
 			>
-				Explore Masters
+				Explore Patterns
 			</a>
 			<a
-				href="/ethos"
+				href="/masters"
 				class="px-8 py-4 border border-white/10 hover:border-white transition-colors"
 			>
-				Read Our Ethos
+				View Masters
 			</a>
 		</div>
 	</div>
