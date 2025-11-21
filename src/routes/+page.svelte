@@ -23,13 +23,13 @@
 		<div class="flex flex-col sm:flex-row gap-4 justify-center">
 			<a
 				href="/patterns"
-				class="px-8 py-4 bg-white text-black font-medium hover:opacity-90 transition-opacity"
+				class="px-8 py-4 bg-white text-black font-medium rounded-full hover:opacity-90 transition-opacity"
 			>
 				Explore Patterns
 			</a>
 			<a
 				href="/masters"
-				class="px-8 py-4 border border-white/10 hover:border-white transition-colors"
+				class="px-8 py-4 border border-white/10 rounded-full hover:border-white transition-colors"
 			>
 				View Masters
 			</a>
