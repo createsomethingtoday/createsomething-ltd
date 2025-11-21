@@ -75,7 +75,7 @@
 			{#each [ { name: 'Dieter Rams', discipline: 'Industrial Design', tagline: '10 Principles of Good Design', slug: 'dieter-rams' }, { name: 'Ludwig Mies van der Rohe', discipline: 'Architecture', tagline: 'Less is more', slug: 'mies-van-der-rohe' }, { name: 'Charles & Ray Eames', discipline: 'Design', tagline: 'The best for the most for the least', slug: 'charles-ray-eames' } ] as master}
 				<a
 					href="/masters/{master.slug}"
-					class="block p-8 border border-white/10 hover:border-white transition-colors group"
+					class="block p-8 border border-white/10 rounded-xl hover:border-white transition-colors group"
 				>
 					<p class="text-xs uppercase tracking-widest opacity-40 mb-4">{master.discipline}</p>
 					<h4 class="mb-2 group-hover:opacity-70 transition-opacity">{master.name}</h4>

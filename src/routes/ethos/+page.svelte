@@ -53,7 +53,7 @@
 
 		<div class="space-y-12">
 			<!-- .io Standards -->
-			<div class="border border-white/10 p-8">
+			<div class="border border-white/10 rounded-xl p-8">
 				<div class="mb-6">
 					<span class="text-xs font-mono opacity-40">.io</span>
 					<h3 class="text-2xl font-semibold mt-2">Research Standards</h3>
@@ -91,7 +91,7 @@
 			</div>
 
 			<!-- .space Standards -->
-			<div class="border border-white/10 p-8">
+			<div class="border border-white/10 rounded-xl p-8">
 				<div class="mb-6">
 					<span class="text-xs font-mono opacity-40">.space</span>
 					<h3 class="text-2xl font-semibold mt-2">Practice Standards</h3>
@@ -129,7 +129,7 @@
 			</div>
 
 			<!-- .agency Standards -->
-			<div class="border border-white/10 p-8">
+			<div class="border border-white/10 rounded-xl p-8">
 				<div class="mb-6">
 					<span class="text-xs font-mono opacity-40">.agency</span>
 					<h3 class="text-2xl font-semibold mt-2">Service Standards</h3>
@@ -190,7 +190,7 @@
 				validation.
 			</p>
 
-			<div class="mt-12 p-8 border border-white/10">
+			<div class="mt-12 p-8 border border-white/10 rounded-xl">
 				<pre class="text-sm opacity-60 font-mono leading-relaxed overflow-x-auto">
 .ltd (STANDARDS)
     ↓ provides criteria

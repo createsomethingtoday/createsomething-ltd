@@ -101,7 +101,7 @@
 
 				<div class="space-y-4">
 					{#each data.resources as resource}
-						<div class="border border-white/10 p-6">
+						<div class="border border-white/10 rounded-xl p-6">
 							<div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
 								<div class="flex-1">
 									{#if resource.type}

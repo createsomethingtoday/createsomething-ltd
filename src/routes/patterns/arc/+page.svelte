@@ -94,7 +94,7 @@
 		<div class="space-y-6 text-lg opacity-80 leading-relaxed">
 			<p><strong>Arc is not a library or framework.</strong> It's a pattern for thinking about sync.</p>
 
-			<div class="my-8 p-8 border border-white/10 bg-white/5">
+			<div class="my-8 p-8 border border-white/10 rounded-xl bg-white/5">
 				<p class="text-sm font-mono opacity-60 mb-4">The Arc Pattern:</p>
 				<pre class="text-sm opacity-70 font-mono leading-loose overflow-x-auto">
 System A  ──────arc──────>  System B
@@ -147,7 +147,7 @@ System A  ──────arc──────>  System B
 
 		<div class="space-y-8">
 			<!-- Arc for Gmail -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<div class="mb-6">
 					<span class="text-xs font-mono opacity-40">ARC IMPLEMENTATION #1</span>
 					<h3 class="text-2xl font-semibold mt-2">Arc for Gmail</h3>
@@ -229,7 +229,7 @@ System A  ──────arc──────>  System B
 				from the hermeneutic circle:
 			</p>
 
-			<div class="my-8 p-8 border border-white/10">
+			<div class="my-8 p-8 border border-white/10 rounded-xl">
 				<pre class="text-sm opacity-60 font-mono leading-relaxed overflow-x-auto">
 <span class="opacity-100">.ltd</span> (Canon)
     ↓ Established "less, but better" + geometric principles
@@ -312,7 +312,7 @@ System A  ──────arc──────>  System B
 				> of their principles applied to sync integrations in 2025.
 			</p>
 
-			<div class="my-8 p-8 border border-white/10 bg-white/5">
+			<div class="my-8 p-8 border border-white/10 rounded-xl bg-white/5">
 				<p class="text-sm opacity-60 mb-4">
 					Given Mies' principle that "less is more" (minimal material, maximum strength),
 				</p>

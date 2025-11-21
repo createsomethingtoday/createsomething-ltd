@@ -54,7 +54,7 @@
 
 		<div class="space-y-8">
 			<!-- Typography -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Fluid Typography</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -93,7 +93,7 @@
 			</div>
 
 			<!-- Color Palette -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Pure Black & White</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -134,7 +134,7 @@
 			</div>
 
 			<!-- Spacing -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Golden Ratio Spacing</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -177,7 +177,7 @@
 			</div>
 
 			<!-- Typography Stack -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Typography Stack</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -221,7 +221,7 @@
 			</div>
 
 			<!-- Border Radius -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Border Radius Scale</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -265,7 +265,7 @@
 			</div>
 
 			<!-- Animations -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Animation Standards</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -309,7 +309,7 @@
 			</div>
 
 			<!-- Accessibility -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Accessibility Requirements</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -353,7 +353,7 @@
 			</div>
 
 			<!-- Z-Index -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Z-Index Scale</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -406,7 +406,7 @@
 
 		<div class="space-y-8">
 			<!-- Serverless -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Serverless First</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -441,7 +441,7 @@
 			</div>
 
 			<!-- Framework -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Svelte Over React</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -476,7 +476,7 @@
 			</div>
 
 			<!-- Database -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Notion as Canonical Target</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -520,7 +520,7 @@
 
 		<div class="space-y-8">
 			<!-- Abstraction -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">No Premature Abstraction</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -556,7 +556,7 @@
 			</div>
 
 			<!-- Naming -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Clarity Over Brevity</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -591,7 +591,7 @@
 			</div>
 
 			<!-- Dependencies -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Challenge Every Dependency</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -635,7 +635,7 @@
 
 		<div class="space-y-8">
 			<!-- OAuth -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">OAuth Over API Keys</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -670,7 +670,7 @@
 			</div>
 
 			<!-- Single Direction -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Single Direction Sync</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -704,7 +704,7 @@
 			</div>
 
 			<!-- Minimal Transformation -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Minimal Transformation</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -748,7 +748,7 @@
 
 		<div class="space-y-8">
 			<!-- Canonical Criteria -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Four Criteria for Canonical Status</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -804,7 +804,7 @@
 			</div>
 
 			<!-- Evolution Pace -->
-			<div class="border border-white/10 p-6 md:p-8">
+			<div class="border border-white/10 rounded-xl p-6 md:p-8">
 				<h3 class="text-xl font-semibold mb-6">Slow Evolution</h3>
 
 				<div class="space-y-4 text-sm md:text-base opacity-80">
@@ -851,7 +851,7 @@
 				These standards aren't fixed—they evolve through the <strong>hermeneutic circle</strong>:
 			</p>
 
-			<div class="my-8 p-8 border border-white/10">
+			<div class="my-8 p-8 border border-white/10 rounded-xl">
 				<pre class="text-sm opacity-60 font-mono leading-relaxed overflow-x-auto">
 <span class="opacity-100">.ltd</span> (Standards provide horizon of understanding)
     ↓

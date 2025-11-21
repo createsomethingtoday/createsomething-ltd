@@ -25,7 +25,7 @@
 			<!-- Arc Pattern -->
 			<a
 				href="/patterns/arc"
-				class="block p-6 md:p-12 border border-white/10 hover:border-white transition-colors group"
+				class="block p-6 md:p-12 border border-white/10 rounded-xl hover:border-white transition-colors group"
 			>
 				<div class="mb-6">
 					<span class="text-xs font-mono opacity-40">CANONICAL PATTERN #1</span>
@@ -46,7 +46,7 @@
 			</a>
 
 			<!-- Placeholder for future patterns -->
-			<div class="p-6 md:p-12 border border-white/10 opacity-30">
+			<div class="p-6 md:p-12 border border-white/10 rounded-xl opacity-30">
 				<div class="mb-6">
 					<span class="text-xs font-mono opacity-40">COMING SOON</span>
 				</div>
