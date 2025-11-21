@@ -1,11 +1,13 @@
 <script lang="ts">
+	import { slide } from 'svelte/transition';
+
 	let { currentPath = $bindable('/') } = $props();
 	let mobileMenuOpen = $state(false);
 </script>
 
-<nav class="border-b border-white/10">
-	<div class="max-w-7xl mx-auto px-6 py-6">
-		<div class="flex items-center justify-between">
+<nav class="fixed top-0 left-0 right-0 z-50 bg-black border-b border-white/10">
+	<div class="max-w-7xl mx-auto px-6">
+		<div class="flex items-center justify-between py-4">
 			<!-- Logo / Home -->
 			<a href="/" class="text-xl font-bold tracking-tight">
 				CREATE SOMETHING
@@ -56,19 +58,28 @@
 				</a>
 			</div>
 
-			<!-- Mobile Menu Button -->
+			<!-- Mobile Menu Button (44px touch target) -->
 			<button
-				class="md:hidden text-sm font-medium opacity-60 hover:opacity-100"
+				class="md:hidden w-11 h-11 flex items-center justify-center text-white/60 hover:text-white transition-colors duration-150"
 				onclick={() => (mobileMenuOpen = !mobileMenuOpen)}
-				aria-label="Toggle menu"
+				aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
 			>
-				{mobileMenuOpen ? '✕' : '☰'}
+				{#if mobileMenuOpen}
+					<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+				{:else}
+					<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+					</svg>
+				{/if}
 			</button>
 		</div>
 
 		<!-- Mobile Navigation Menu -->
 		{#if mobileMenuOpen}
-			<div class="md:hidden pt-6 flex flex-col gap-4">
+			<div transition:slide={{ duration: 200 }} class="md:hidden py-4 border-t border-white/10">
+				<div class="flex flex-col gap-4">
 				<a
 					href="/masters"
 					class="text-sm font-medium {currentPath.startsWith('/masters')
@@ -114,6 +125,7 @@
 				>
 					Ethos
 				</a>
+				</div>
 			</div>
 		{/if}
 	</div>

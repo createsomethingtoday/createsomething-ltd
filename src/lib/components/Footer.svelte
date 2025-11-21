@@ -1,6 +1,6 @@
-<footer class="border-t border-white/10 mt-24">
-	<div class="max-w-7xl mx-auto px-6 py-12">
-		<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<footer class="border-t border-white/10" style="margin-top: var(--space-3xl)">
+	<div class="max-w-7xl mx-auto px-6" style="padding-top: var(--space-xl); padding-bottom: var(--space-xl)">
+		<div class="grid grid-cols-1 md:grid-cols-3" style="gap: var(--space-lg)">
 			<!-- About -->
 			<div>
 				<h4 class="text-sm font-bold mb-4">About</h4>
@@ -66,7 +66,7 @@
 			</div>
 		</div>
 
-		<div class="mt-12 pt-8 border-t border-white/10">
+		<div class="border-t border-white/10" style="margin-top: var(--space-lg); padding-top: var(--space-md)">
 			<p class="text-xs opacity-40 text-center">
 				© {new Date().getFullYear()} Create Something. The canon for "less, but better."
 			</p>

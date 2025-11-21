@@ -175,6 +175,226 @@
 					</p>
 				</div>
 			</div>
+
+			<!-- Typography Stack -->
+			<div class="border border-white/10 p-6 md:p-8">
+				<h3 class="text-xl font-semibold mb-6">Typography Stack</h3>
+
+				<div class="space-y-4 text-sm md:text-base opacity-80">
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-4 pb-4 border-b border-white/10">
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Given</p>
+							<p>Consistent typographic voice</p>
+						</div>
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Context</p>
+							<p>Variable fonts, system fallbacks</p>
+						</div>
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Rule</p>
+							<p class="opacity-100">
+								<strong>Stack Sans Notch + JetBrains Mono</strong>
+							</p>
+						</div>
+					</div>
+
+					<div class="pt-2">
+						<p class="opacity-60 leading-relaxed mb-4">
+							Primary: Stack Sans Notch (variable 200-700) with optical-sizing: auto. Monospace:
+							JetBrains Mono for code. System fallback: -apple-system, BlinkMacSystemFont, 'Segoe
+							UI', system-ui.
+						</p>
+						<div class="bg-white/5 p-4 font-mono text-xs overflow-x-auto">
+							<code
+								>font-family: 'Stack Sans Notch', -apple-system,<br />&nbsp;&nbsp;BlinkMacSystemFont,
+								'Segoe UI', system-ui;</code
+							>
+						</div>
+					</div>
+
+					<p class="text-xs opacity-50 italic pt-2">
+						Rationale: Stack Sans Notch provides optical precision for "less, but better"
+						aesthetic. Variable fonts allow fine-tuned weight control. System fallbacks ensure
+						universal accessibility.
+					</p>
+				</div>
+			</div>
+
+			<!-- Border Radius -->
+			<div class="border border-white/10 p-6 md:p-8">
+				<h3 class="text-xl font-semibold mb-6">Border Radius Scale</h3>
+
+				<div class="space-y-4 text-sm md:text-base opacity-80">
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-4 pb-4 border-b border-white/10">
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Given</p>
+							<p>Rams: "Good design is unobtrusive"</p>
+						</div>
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Context</p>
+							<p>Interface element corners</p>
+						</div>
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Rule</p>
+							<p class="opacity-100">
+								<strong>Subtle corners: 8px, 12px, 16px, 24px</strong>
+							</p>
+						</div>
+					</div>
+
+					<div class="pt-2">
+						<p class="opacity-60 leading-relaxed mb-4">
+							Small: 8px (buttons, inputs). Medium: 12px (cards). Large: 16px (featured cards).
+							XLarge: 24px (modals). Full: 9999px (pills, badges). Use sparingly—not every element
+							needs rounded corners.
+						</p>
+						<div class="bg-white/5 p-4 font-mono text-xs overflow-x-auto">
+							<code
+								>--radius-sm: 8px;<br />--radius-md: 12px;<br />--radius-lg: 16px;<br />--radius-xl:
+								24px;</code
+							>
+						</div>
+					</div>
+
+					<p class="text-xs opacity-50 italic pt-2">
+						Rationale: Corners should feel inevitable, not decorative. Larger radius for larger
+						elements maintains optical consistency. Full radius reserved for intentional
+						pill/badge patterns.
+					</p>
+				</div>
+			</div>
+
+			<!-- Animations -->
+			<div class="border border-white/10 p-6 md:p-8">
+				<h3 class="text-xl font-semibold mb-6">Animation Standards</h3>
+
+				<div class="space-y-4 text-sm md:text-base opacity-80">
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-4 pb-4 border-b border-white/10">
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Given</p>
+							<p>Rams: "As little design as possible"</p>
+						</div>
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Context</p>
+							<p>UI feedback and transitions</p>
+						</div>
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Rule</p>
+							<p class="opacity-100">
+								<strong>Animation serves understanding</strong>
+							</p>
+						</div>
+					</div>
+
+					<div class="pt-2">
+						<p class="opacity-60 leading-relaxed mb-4">
+							Easing: cubic-bezier(0.4, 0.0, 0.2, 1). Duration: 150ms (micro), 200ms (standard),
+							300ms (deliberate), 500ms max. Hover: opacity 0.7 or translateY(-2px). Respect
+							prefers-reduced-motion.
+						</p>
+						<div class="bg-white/5 p-4 font-mono text-xs overflow-x-auto">
+							<code
+								>transition: opacity 150ms cubic-bezier(0.4, 0.0, 0.2, 1);<br />transform:
+								translateY(-2px);</code
+							>
+						</div>
+					</div>
+
+					<p class="text-xs opacity-50 italic pt-2">
+						Rationale: Animation only when it aids understanding. Speed maintains focus, never
+						distracts. Every animation must justify its existence—decoration is not
+						justification.
+					</p>
+				</div>
+			</div>
+
+			<!-- Accessibility -->
+			<div class="border border-white/10 p-6 md:p-8">
+				<h3 class="text-xl font-semibold mb-6">Accessibility Requirements</h3>
+
+				<div class="space-y-4 text-sm md:text-base opacity-80">
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-4 pb-4 border-b border-white/10">
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Given</p>
+							<p>Universal access is fundamental</p>
+						</div>
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Context</p>
+							<p>WCAG 2.1 AA compliance</p>
+						</div>
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Rule</p>
+							<p class="opacity-100">
+								<strong>44px touch targets, semantic HTML</strong>
+							</p>
+						</div>
+					</div>
+
+					<div class="pt-2">
+						<p class="opacity-60 leading-relaxed mb-4">
+							Touch targets: 44px × 44px minimum. Color contrast: Pure black/white provides 21:1
+							ratio. Focus states: 2px outline with 2px offset. Semantic HTML: &lt;nav&gt;,
+							&lt;main&gt;, &lt;article&gt;. All images require alt text.
+						</p>
+						<div class="bg-white/5 p-4 font-mono text-xs overflow-x-auto">
+							<code
+								>&lt;button class="w-11 h-11"&gt; &lt;!-- 44px --&gt;<br />:focus-visible &#123;
+								outline: 2px solid white/60; &#125;</code
+							>
+						</div>
+					</div>
+
+					<p class="text-xs opacity-50 italic pt-2">
+						Rationale: Universal access is not optional—it's fundamental. Pure black and white
+						provides maximum contrast. Opacity-based hierarchy maintains accessibility while
+						creating visual hierarchy.
+					</p>
+				</div>
+			</div>
+
+			<!-- Z-Index -->
+			<div class="border border-white/10 p-6 md:p-8">
+				<h3 class="text-xl font-semibold mb-6">Z-Index Scale</h3>
+
+				<div class="space-y-4 text-sm md:text-base opacity-80">
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-4 pb-4 border-b border-white/10">
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Given</p>
+							<p>Rams: "Good design is systematic"</p>
+						</div>
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Context</p>
+							<p>Layering interface elements</p>
+						</div>
+						<div>
+							<p class="text-xs uppercase tracking-wider opacity-40 mb-2">Rule</p>
+							<p class="opacity-100">
+								<strong>Predictable layering: 0, 10, 20, 30, 40, 50</strong>
+							</p>
+						</div>
+					</div>
+
+					<div class="pt-2">
+						<p class="opacity-60 leading-relaxed mb-4">
+							Base: 0 (document flow). Dropdown: 10. Sticky: 20. Fixed nav: 30 (z-50 in
+							Tailwind). Modal: 40. Toast: 50. Never use arbitrary z-index values—chaos indicates
+							poor information architecture.
+						</p>
+						<div class="bg-white/5 p-4 font-mono text-xs overflow-x-auto">
+							<code
+								>--z-base: 0;<br />--z-dropdown: 10;<br />--z-fixed: 30; /* Fixed navigation
+								*/</code
+							>
+						</div>
+					</div>
+
+					<p class="text-xs opacity-50 italic pt-2">
+						Rationale: Z-index chaos indicates poor information architecture. Systematic layering
+						makes stacking contexts predictable. Fixed navigation at z-50 ensures it stays above
+						content.
+					</p>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

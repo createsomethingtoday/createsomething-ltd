@@ -31,7 +31,7 @@
 <div class="min-h-screen flex flex-col">
 	<Navigation currentPath={data?.pathname || '/'} />
 
-	<main class="flex-1">
+	<main class="flex-1 pt-[73px]">
 		{@render children()}
 	</main>
 
