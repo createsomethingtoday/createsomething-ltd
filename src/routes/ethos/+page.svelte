@@ -1,3 +1,40 @@
+<script lang="ts">
+	import DomainStandardCard from '$lib/components/DomainStandardCard.svelte';
+
+	const domainStandards = [
+		{
+			domain: '.io',
+			title: 'Research Standards',
+			standards: [
+				'Every paper must answer: <strong>Is this useful?</strong> Not interesting, not novel—useful.',
+				'Findings must be <strong>reproducible</strong>. Methodology transparent. Metrics honest.',
+				'Writing serves the reader. <strong>Clarity over cleverness.</strong> Simple language over jargon.',
+				'If a principle from .ltd applies, cite it. <strong>Connect theory to the lineage.</strong>'
+			]
+		},
+		{
+			domain: '.space',
+			title: 'Practice Standards',
+			standards: [
+				'Every experiment must <strong>teach a principle</strong>, not just a technique.',
+				'Interfaces are minimal. <strong>Zero decoration.</strong> Only essential feedback.',
+				'Success is completion, not clicks. <strong>Measure learning, not engagement.</strong>',
+				'Link to .io for depth, to .ltd for philosophy. <strong>Practice without context is shallow.</strong>'
+			]
+		},
+		{
+			domain: '.agency',
+			title: 'Service Standards',
+			standards: [
+				'Delivered work must meet canonical standards. <strong>No shortcuts, no compromises.</strong>',
+				'Solutions solve problems. <strong>Not features for features\' sake.</strong>',
+				'Documentation is complete. Code is readable. <strong>Future maintainers are users too.</strong>',
+				'Case studies cite which .ltd principles were applied. <strong>Proof, not just claims.</strong>'
+			]
+		}
+	];
+</script>
+
 <svelte:head>
 	<title>Ethos — CREATE SOMETHING.ltd</title>
 	<meta
@@ -52,122 +89,9 @@
 		<h2 class="mb-12 text-center">Standards Across the Ecosystem</h2>
 
 		<div class="space-y-12">
-			<!-- .io Standards -->
-			<div class="border border-white/10 rounded-xl p-8">
-				<div class="mb-6">
-					<span class="text-xs font-mono opacity-40">.io</span>
-					<h3 class="text-2xl font-semibold mt-2">Research Standards</h3>
-				</div>
-
-				<ul class="space-y-4 text-base opacity-70">
-					<li class="flex items-start gap-3">
-						<span class="opacity-40 mt-1">—</span>
-						<span
-							>Every paper must answer: <strong>Is this useful?</strong> Not interesting, not novel—useful.</span
-						>
-					</li>
-					<li class="flex items-start gap-3">
-						<span class="opacity-40 mt-1">—</span>
-						<span
-							>Findings must be <strong>reproducible</strong>. Methodology transparent. Metrics honest.</span
-						>
-					</li>
-					<li class="flex items-start gap-3">
-						<span class="opacity-40 mt-1">—</span>
-						<span
-							>Writing serves the reader. <strong>Clarity over cleverness.</strong> Simple language over
-							jargon.</span
-						>
-					</li>
-					<li class="flex items-start gap-3">
-						<span class="opacity-40 mt-1">—</span>
-						<span
-							>If a principle from .ltd applies, cite it. <strong
-								>Connect theory to the lineage.</strong
-							></span
-						>
-					</li>
-				</ul>
-			</div>
-
-			<!-- .space Standards -->
-			<div class="border border-white/10 rounded-xl p-8">
-				<div class="mb-6">
-					<span class="text-xs font-mono opacity-40">.space</span>
-					<h3 class="text-2xl font-semibold mt-2">Practice Standards</h3>
-				</div>
-
-				<ul class="space-y-4 text-base opacity-70">
-					<li class="flex items-start gap-3">
-						<span class="opacity-40 mt-1">—</span>
-						<span
-							>Every experiment must <strong>teach a principle</strong>, not just a technique.</span
-						>
-					</li>
-					<li class="flex items-start gap-3">
-						<span class="opacity-40 mt-1">—</span>
-						<span
-							>Interfaces are minimal. <strong>Zero decoration.</strong> Only essential feedback.</span
-						>
-					</li>
-					<li class="flex items-start gap-3">
-						<span class="opacity-40 mt-1">—</span>
-						<span
-							>Success is completion, not clicks. <strong>Measure learning, not engagement.</strong
-							></span
-						>
-					</li>
-					<li class="flex items-start gap-3">
-						<span class="opacity-40 mt-1">—</span>
-						<span
-							>Link to .io for depth, to .ltd for philosophy. <strong
-								>Practice without context is shallow.</strong
-							></span
-						>
-					</li>
-				</ul>
-			</div>
-
-			<!-- .agency Standards -->
-			<div class="border border-white/10 rounded-xl p-8">
-				<div class="mb-6">
-					<span class="text-xs font-mono opacity-40">.agency</span>
-					<h3 class="text-2xl font-semibold mt-2">Service Standards</h3>
-				</div>
-
-				<ul class="space-y-4 text-base opacity-70">
-					<li class="flex items-start gap-3">
-						<span class="opacity-40 mt-1">—</span>
-						<span
-							>Delivered work must meet canonical standards. <strong
-								>No shortcuts, no compromises.</strong
-							></span
-						>
-					</li>
-					<li class="flex items-start gap-3">
-						<span class="opacity-40 mt-1">—</span>
-						<span
-							>Solutions solve problems. <strong>Not features for features' sake.</strong></span
-						>
-					</li>
-					<li class="flex items-start gap-3">
-						<span class="opacity-40 mt-1">—</span>
-						<span
-							>Documentation is complete. Code is readable. <strong
-								>Future maintainers are users too.</strong
-							></span
-						>
-					</li>
-					<li class="flex items-start gap-3">
-						<span class="opacity-40 mt-1">—</span>
-						<span
-							>Case studies cite which .ltd principles were applied. <strong
-								>Proof, not just claims.</strong
-							></span
-						>
-					</li>
-				</ul>
-			</div>
+			{#each domainStandards as standard}
+				<DomainStandardCard domainStandard={standard} />
+			{/each}
 		</div>
 	</div>
 </section>
