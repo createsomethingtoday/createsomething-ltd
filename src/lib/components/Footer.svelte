@@ -10,25 +10,25 @@
 				</p>
 			</div>
 
-			<!-- Ecosystem -->
+			<!-- Modes of Being -->
 			<div>
-				<h4 class="text-sm font-bold mb-4">Ecosystem</h4>
+				<h4 class="text-sm font-bold mb-4">Modes of Being</h4>
 				<div class="space-y-2">
-					<a
-						href="https://createsomething.io"
-						class="block text-sm opacity-60 hover:opacity-100"
-						target="_blank"
-						rel="noopener"
-					>
-						createsomething.io <span class="opacity-40">— Research</span>
-					</a>
 					<a
 						href="https://createsomething.space"
 						class="block text-sm opacity-60 hover:opacity-100"
 						target="_blank"
 						rel="noopener"
 					>
-						createsomething.space <span class="opacity-40">— Practice</span>
+						.space <span class="opacity-40">— Explore</span>
+					</a>
+					<a
+						href="https://createsomething.io"
+						class="block text-sm opacity-60 hover:opacity-100"
+						target="_blank"
+						rel="noopener"
+					>
+						.io <span class="opacity-40">— Learn</span>
 					</a>
 					<a
 						href="https://createsomething.agency"
@@ -36,7 +36,21 @@
 						target="_blank"
 						rel="noopener"
 					>
-						createsomething.agency <span class="opacity-40">— Services</span>
+						.agency <span class="opacity-40">— Build</span>
+					</a>
+					<a
+						href="https://createsomething.ltd"
+						class="block text-sm opacity-60 hover:opacity-100"
+					>
+						.ltd <span class="opacity-40">— Canon</span>
+					</a>
+					<a
+						href="https://github.com/createsomethingtoday"
+						class="block text-sm opacity-60 hover:opacity-100"
+						target="_blank"
+						rel="noopener"
+					>
+						GitHub <span class="opacity-40">— Source</span>
 					</a>
 				</div>
 			</div>

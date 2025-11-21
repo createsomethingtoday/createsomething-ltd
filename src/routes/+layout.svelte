@@ -8,6 +8,14 @@
 
 <svelte:head>
 	<meta name="theme-color" content="#000000" />
+
+	<!-- Favicons -->
+	<link rel="icon" href="/favicon.png" type="image/png" />
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+	<link rel="icon" href="/favicon.ico" sizes="any" />
+	<link rel="apple-touch-icon" href="/favicon.png" />
+
+	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
 	<link
